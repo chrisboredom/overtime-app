@@ -1,14 +1,14 @@
-<%= form_for @post do |f| %>
-  <div class="field">
-    <%= f.label :date %><br>
-    <%= f.date_field :date %>
+<%= form_for @post, class: "form-horizontal" do |f| %>
+  <div class="form-group">
+    <%= f.label :date, class: "col-sm-2 control-label" %><br>
+    <%= f.date_field :date, class: "form-control" %>
   </div>
-  <div class="field">
-    <%= f.label :rationale %><br>
-    <%= f.text_field :rationale %>
+  <div class="form-group">
+    <%= f.label :rationale, class: "col-sm-2 control-label" %><br>
+    <%= f.text_field :rationale, class: "form-control" %>
   </div>
   <br>
   <div class="actions">
-    <%= f.submit 'Save' %>
+    <%= f.submit 'Save', class: 'btn btn-primary btn-block' %>
   </div>
 <% end %>
