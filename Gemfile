@@ -15,6 +15,7 @@ gem 'devise', '~> 4.2'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'gritter', '~> 1.2'
 gem 'administrate', github: 'thoughtbot/administrate', branch: :master
+gem 'bourbon', '~> 4.2', '>= 4.2.7'
 
 
 group :development, :test do
