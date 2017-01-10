@@ -15,11 +15,9 @@
     <%= f.text_field :rationale, class: "form-control" %>
   </div>
 
-  <%= render partial: 'status', locals: { f: f} if current_user.type == 'AdminUser' %>
+  <%= render partial: 'status', locals: { f: f } if current_user.type == 'AdminUser' %>
 
   <br>
 
-  <div class="actions">
     <%= f.submit 'Save', class: 'btn btn-primary btn-block' %>
-  </div>
 <% end %>
