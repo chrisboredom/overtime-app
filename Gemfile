@@ -18,6 +18,7 @@ gem 'gritter', '~> 1.2'
 gem 'administrate', github: 'thoughtbot/administrate', branch: :master
 gem 'bourbon', '~> 4.2', '>= 4.2.7'
 gem 'pundit', '~> 1.1'
+gem 'twilio-ruby', '~> 4.13'
 
 
 group :development, :test do
