@@ -19,6 +19,7 @@ gem 'administrate', github: 'thoughtbot/administrate', branch: :master
 gem 'bourbon', '~> 4.2', '>= 4.2.7'
 gem 'pundit', '~> 1.1'
 gem 'twilio-ruby', '~> 4.13'
+gem 'dotenv-rails', '~> 2.1', '>= 2.1.1', :groups => [:development, :test]
 
 
 group :development, :test do
