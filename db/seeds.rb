@@ -26,7 +26,7 @@ AuditLog.create!(user_id: @employee.id, status: 0, start_date: (Date.today - 20.
 puts "3 audit logs have been created"
 
 100.times do |post|
-  Post.create!(date: Date.today, rationale: "#{post} rationale content Hoodie actually thundercats mixtape, chia master cleanse dreamcatcher literally. Church-key cliche polaroid, chartreuse tilde iPhone freegan bushwick ugh poke pour-over sriracha. Tbh four loko la croix sustainable man braid. Meggings next level salvia YOLO messenger bag whatever glossier, prism williamsburg hashtag thundercats +1. Enamel pin tote bag readymade, vinyl drinking vinegar succulents try-hard sriracha lomo gentrify heirloom hell of slow-carb. Iceland literally heirloom sriracha put a bird on it tumblr VHS forage offal. Kitsch ennui truffaut tbh migas, photo booth tilde succulents fashion axe echo park wolf.", user_id: @employee.id, overtime_request: 2.5)
+  Post.create!(date: Date.today, rationale: "#{post} rationale content Hoodie actually thundercats mixtape, chia master cleanse dreamcatcher literally. Church-key cliche polaroid, chartreuse tilde iPhone freegan bushwick ugh poke pour-over sriracha. Tbh four loko la croix sustainable man braid. Meggings next level salvia YOLO messenger bag whatever glossier, prism williamsburg hashtag thundercats +1. Enamel pin tote bag readymade, vinyl drinking vinegar succulents try-hard sriracha lomo gentrify heirloom hell of slow-carb. Iceland literally heirloom sriracha put a bird on it tumblr VHS forage offal. Kitsch ennui truffaut tbh migas, photo booth tilde succulents fashion axe echo park wolf.", user_id: @employee.id, daily_hours: 12.5)
 end
 
 puts "100 posts have been created"
